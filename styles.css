@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+:root {
+    font-size: 24px;
+}
+@font-face {
+    font-family: norseBold;
+    src: url(fonts/Norse-Bold.otf); 
+}
+a {
+    color: rgb(136, 191, 255);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 100vh;
+    width: 100vw;
+}
+.image-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(images/canyon.jpg);
+    background-size: cover;
+    color: rgb(214, 214, 214);
+    position: relative;
+}
+.overlay-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    background-color: rgba(10, 10, 10, 0.6);
+    width: 100%; 
+    font-size: 4rem;
+    padding: .5rem 0 .5rem 0;
+}
+.image-credit {
+    margin-bottom: 20px;
+}
+.overlay-icon {
+    max-height: 200px;
+    width: auto;
+}
+.overlay-text {
+    color: white;
+    font-family: norseBold, Arial, Helvetica, sans-serif;
+}
