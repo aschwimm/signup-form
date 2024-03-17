@@ -51,7 +51,7 @@ a {
     font-family: norseBold, Arial, Helvetica, sans-serif;
 }
 .form-wrapper {
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(245, 244, 244);
     height: 100vh;
 }
 .form-hero {
@@ -63,7 +63,7 @@ a {
 }
 .signup-form {
     background-color: white;
-    box-shadow: 0px 5px px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.2);
     position: relative;
     display: grid;
     justify-content: flex-start;
